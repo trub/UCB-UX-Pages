@@ -17,115 +17,194 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <style>
-    .container{
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    h2 {
-        font-size: 36px;
-    }
-    a {
-        font-size: 18px;
-        color: black;
-        padding: 5px;
-        margin-top:10px;
-        display:block;
-    }
-    .hw16 {
-        border: 1px solid tomato;
-        padding: 50px;
-    }
-    .hw17 {
-        border: 1px solid yellowgreen;
-        padding: 50px;
-    }
-    .hw18 {
-        border: 1px solid purple;
-        padding: 50px;
-    }
-    
-    </style>
-</head>
-<body>
-    <!-- navigation-->
-    <nav class="navbar navbar-dark bg-primary text-white">
-        <h1>UCB UX</h1>
-      </nav> 
-
-    <section class="container hw16">
-        <h1>Hi!</h1>
-        <p>This is a website showing what students at UC-Berkeley's UX Bootcamp are making!</p>
-        <p>Cohort: April 2019 </p>
-    </section>
-    <!-- About Me Page-->
-    <section class="container hw16">
-        <h2>HW 16: About Me Page</h2>
-        <!---ADD YOUR NAME AND A LINK TO YOUR WORK BELOW-->
-        <div class="row">
-            <div class="col-3"> 
-                <a href="http://trub.github.io/portfolio">Matt</a>
-                <a href="https://andrewgoessling.github.io/HW-MyFirstLayout/">Andrew G</a>
-                <a href="https://berniealvarez.github.io/HW-MyFirstLayout/">Bernie</a>
-                <a href="https://sabrinakudo.github.io/HW-16-2/">Sabrina</a>
-                <a href="https://moonmitaghosh.github.io/HW-MyFirstLayout-/index.html">Moonmita</a>
-            </div>
-            <div class="col-3"> 
-                <a href="https://feragusta.github.io/HW-MyFIrstLayout/">Ferdi</a>
-                <a href="https://kcruark.github.io/HW-MyFirstLayout/">Kendric</a>
-                <a href="https://lusifan.github.io/HW-MyFirstLayout/">Lusi</a>
-                <a href="https://jhwkim.github.io/HW-MyFirstLayout/">Jihwan</a>
-            </div>
-            <div class="col-3"> 
-                <a href="https://ski8689.github.io/HW_MyFirstLayout/">Seul Ki </a>
-                <a href="https://stephanieschreiber.github.io/HW-MyFirstLayout/">Steffi</a>
-                <a href="https://nikki-garcia.github.io/HW-MyFirstLayout/">Nikki</a>
-                <a href="https://johannanilsson.github.io/homework16/">Johanna</a>
-            </div>
-            <div class="col-3"> 
-                <a href="https://manasa098.github.io/HW-MyFirstLayout/">Manasa</a>
-                <a href="https://kyaroshi.github.io/HW-MyFirstLayout/">Caroline</a>
-                <a href="https://carinafinucane.github.io/HW-MyFirstLayout/">Carina</a>
-                <a href="https://sarah-kelly.github.io/HW16-MyFirstLayout/index.html">Sarah</a>
-            </div>
-        </div>
-    </section>  
-    <!-- Responsive Portfolio Page-->
-    <section class="container hw17">
-            <h2>HW 17: Responsive Portfolio Page</h2>
-            <!---ADD YOUR NAME AND A LINK TO YOUR WORK BELOW-->
-        <div class="row">
-            <div class="col-3"> 
-                <a href="https://andrewgoessling.github.io/HW-MyFirstLayout/">Andrew G</a>
-                <a href="https://berniealvarez.github.io/homework_17/#">Bernie</a>
-                <a href="https://sabrinakudo.github.io/HOMEWORK17/">Sabrina</a>
-                <a href="https://aadig2377.github.io/AboutMe/">Addi</a>
-            </div>
-            <div class="col-3"> 
-                <a href="https://feragusta.github.io/homework_17/">Ferdi</a>
-                <a href="https://kcruark.github.io/HW-MyFirstLayout/">Kendric</a>
-                <a href="https://lusifan.github.io/HM-MyPortfolio/">Lusi</a>
-                <a href="https://jhwkim.github.io/HW-MyFirstLayout/">Jihwan</a>
-                <a href="https://mgindiya.github.io/HW17/">Masha</a>
-            </div>
-            <div class="col-3"> 
-                <a href="https://ski8689.github.io/HW_17/">Seul Ki </a>
-                <a href="https://stephanieschreiber.github.io/HW-MyFirstLayout/">Steffi</a>
-                <a href="https://nikki-garcia.github.io/hw17-portfolio/index.html">Nikki</a>
-                <a href="https://johannanilsson.github.io/homework16/">Johanna</a>
-            </div>
-            <div class="col-3"> 
-                <a href="https://manasa098.github.io/Homework_17/">Manasa</a>
-                <a href="https://kyaroshi.github.io/HW-MyFirstLayout/">Caroline</a>
-                <a href="https://carinafinucane.github.io/HW-MyFirstLayout/">Carina</a>
-                <a href="https://sarah-kelly.github.io/HW17/">Sarah</a>
-                <a href="https://yongyifeng.github.io/homework_17/#">Yongyi</a>
-            </div>
-        </div>
-    </section>   
-    <!-- Bootstrap Portfolio Page-->
-    <section class="container hw18">
-            <h2>HW 18: Boostrap Portfolio Page</h2>
-    </section>    
+    <link rel="stylesheet" href="index.css">
+    <body>
+    <!-- NAVIGATION-->
+    <div class="sidebar-container">
+    <div class="sidebar-logo">
+        UCB UX ROCKS
+    </div>
+    <ul class="sidebar-navigation">
+        <li>
+        <a href="#">
+            <i class="fa fa-home" aria-hidden="true"></i> Welcome
+        </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-tachometer" aria-hidden="true"></i> Group Project 1
+            </a>
+            </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-tachometer" aria-hidden="true"></i> Group Project 2
+            </a>
+            </li>
+        <li>
+        <a href="#">
+            <i class="fa fa-tachometer" aria-hidden="true"></i> Homework 16
+        </a>
+        </li>
+        <li>
+        <a href="#">
+            <i class="fa fa-users" aria-hidden="true"></i> Homework 17
+        </a>
+        </li>
+        <li>
+        <a href="#">
+            <i class="fa fa-cog" aria-hidden="true"></i> Homework 18
+        </a>
+        </li>
+        <li>
+        <a href="#">
+            <i class="fa fa-info-circle" aria-hidden="true"></i> Homework 19
+        </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-info-circle" aria-hidden="true"></i> Homework 20
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-info-circle" aria-hidden="true"></i> Homework 21
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-info-circle" aria-hidden="true"></i> Group Project 3
+            </a>
+        </li>
+    </ul>
+    </div>         
+    <!-- end nav========================================================  -->
+    <!-- CONTENT -->
+    <div class="content-container">
+            <section class="container">
+                    <h1>Hi!</h1>
+                    <p>This is a website showing what students at UC-Berkeley's UX Bootcamp are making!</p>
+                    <p>Cohort: April 2019 </p>
+                </section>
+                <!-- GROUP PROJECT 1-->
+                <section class="container hw16">
+                        <h2>Group Project 1</h2>
+                        <!---ADD YOUR NAME AND A LINK TO YOUR WORK BELOW-->
+                        <div class="row">
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=1ljIYYpMc05ixsULQrw1KXFbLsDP9eldTxyTMOnVAGMc">Andrew G & Andrew U</a>
+                                <a href="https://drive.google.com/open?id=1pq8_hZtitAotdqQwro2uKn-7JSWzV-vrGbJhgyFLOb8">Joe, Kendric, Moonmita</a>
+                                <a href="https://drive.google.com/open?id=172PBeYsVPT-6PtYU5iELR2m0KmfUXgwnawfbtjHhyAc">Manasa, Carina, Jihwan</a>
+                            </div>
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=1HsSxjkZLnOZDhSB-1ogeQig7pZdnSPzZdVzeGWEr3cs">Michael & Colleen</a>
+                                <a href="https://drive.google.com/open?id=1qCLBVYSsEp6ivUvSgqDvWObPzUgW9hYwfTvpcqx8DgY">Ferdi & Caroline</a>
+                                <a href="https://drive.google.com/open?id=1_nn6AwKvzp9NqgNpdcTsa8Zu2x9AQS_YLOO80LofskM">Stephanie & Sabrina</a>
+                                <a href="https://drive.google.com/open?id=1IKRZ0hLc_1pN-guBUS3xFXtJMz_gNZ5yg27nF4UVQlI">Johanna & Masha</a>
+                            </div>
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=1R8M93Dm8RVBKTkUMmW48FIgVKL7bY0um9EBDJ04ZSZw">Nikki & Sarah</a>
+                                <a href="https://drive.google.com/open?id=1Nks4AqzuS2e5yCzJhY36DXSvb2eT39R2">Lusi & Yongyi</a>
+                                <a href="https://drive.google.com/open?id=1-b3MEZFlCrsDndOq9eLTMkpBGv7sFfcjRzLNgMGkKIE">Seul Ji, Nick, Giorgia</a>
+                            </div>
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=1B6Fv4m-ACtnGY9_T6lhUVOp-XB48u58c">Aadi & Bernie</a>
+                                <a href="https://drive.google.com/open?id=10mddqSh6gtpZg3i5Vy3-NqLQ5GhHPgPw19baSu25Mkg">Anna & Tollef</a>
+                                <a href="https://drive.google.com/open?id=1JoWxU2KRXPiHt5Ds6R-6OpDkqLmRtAZZ">Heidy & Mariana</a>
+                            </div>
+                        </div>
+                    </section>  
+                 <!-- GROUP PROJECT 2-->
+                 <section class="container hw17">
+                        <h2>Group Project 2</h2>
+                        <!---ADD YOUR NAME AND A LINK TO YOUR WORK BELOW-->
+                        <div class="row">
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=141-4T4Fjad5_GTV4Tc_9oxKVuPGQSqwHLgmSDY1v74s">Masha, Heidy, Aadi</a>
+                                <a href="https://drive.google.com/open?id=1eN3sRUfaamX1hwfrnrOGhgu8CdYOdsGwF8VOWkmgXUk">Anna, Tollef, Joe</a>  
+                            </div>
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=1R3QKyT8UQQfhD_K83_hzprXJLk2ku1mhL2cJxN-60BQ">Colleen, Steffi, Michael</a>
+                                <a href="https://drive.google.com/open?id=1TVojPVe0iZIi-S3rML0DGeRewRCJppmQt2LFJi0Fld0">Ferdi, Giorgio, Nick</a>
+                            </div>
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=1ZlXmGGklhaDCMIjlxT43O_MQ7ciYbSqgc5GaS-QW26Q">Nikki, Johanna, Seul</a>
+                                <a href="https://drive.google.com/open?id=1BPTWG3qavrn_rlNQJFTbqey7mh_Kiwgq">Jihwan, Carolina, Manasa</a>
+                            </div>
+                            <div class="col-3"> 
+                                <a href="https://drive.google.com/open?id=1ys-a1Gt9EeIGQnf3wDfTUeK0PgwYXZ7P">Moonmita, Sabrina, Andrew</a>
+                                <a href="https://drive.google.com/open?id=1CNx5FnuRGMwavrD6BMz4Iu1PPL6glfN2ufi9gQ_C5sg">Carina, Sarah, Bernie</a>
+                                <a href="https://drive.google.com/open?id=1RP76_T_phUEPgp7Fj4VdfwnvLQWocyOZ">Lusi, Kendric, Yongyi, Mariana</a>
+                          </div>
+                        </div>
+                    </section>  
+                <section class="container hw16">
+                    <h2>HW 16: About Me Page</h2>
+                    <!---ADD YOUR NAME AND A LINK TO YOUR WORK BELOW-->
+                    <div class="row">
+                        <div class="col-3"> 
+                            <a href="http://trub.github.io/portfolio">Matt</a>
+                            <a href="https://andrewgoessling.github.io/HW-MyFirstLayout/">Andrew G</a>
+                            <a href="https://berniealvarez.github.io/HW-MyFirstLayout/">Bernie</a>
+                            <a href="https://sabrinakudo.github.io/HW-16-2/">Sabrina</a>
+                            <a href="https://moonmitaghosh.github.io/HW-MyFirstLayout-/index.html">Moonmita</a>
+                        </div>
+                        <div class="col-3"> 
+                            <a href="https://feragusta.github.io/HW-MyFIrstLayout/">Ferdi</a>
+                            <a href="https://kcruark.github.io/HW-MyFirstLayout/">Kendric</a>
+                            <a href="https://lusifan.github.io/HW-MyFirstLayout/">Lusi</a>
+                            <a href="https://jhwkim.github.io/HW-MyFirstLayout/">Jihwan</a>
+                        </div>
+                        <div class="col-3"> 
+                            <a href="https://ski8689.github.io/HW_MyFirstLayout/">Seul Ki </a>
+                            <a href="https://stephanieschreiber.github.io/HW-MyFirstLayout/">Steffi</a>
+                            <a href="https://nikki-garcia.github.io/HW-MyFirstLayout/">Nikki</a>
+                            <a href="https://johannanilsson.github.io/homework16/">Johanna</a>
+                        </div>
+                        <div class="col-3"> 
+                            <a href="https://manasa098.github.io/HW-MyFirstLayout/">Manasa</a>
+                            <a href="https://kyaroshi.github.io/HW-MyFirstLayout/">Caroline</a>
+                            <a href="https://carinafinucane.github.io/HW-MyFirstLayout/">Carina</a>
+                            <a href="https://sarah-kelly.github.io/HW16-MyFirstLayout/index.html">Sarah</a>
+                        </div>
+                    </div>
+                </section>  
+                <!-- Responsive Portfolio Page-->
+                <section class="container hw17">
+                        <h2>HW 17: Responsive Portfolio Page</h2>
+                        <!---ADD YOUR NAME AND A LINK TO YOUR WORK BELOW-->
+                    <div class="row">
+                        <div class="col-3"> 
+                            <a href="https://andrewgoessling.github.io/HW-MyFirstLayout/">Andrew G</a>
+                            <a href="https://berniealvarez.github.io/homework_17/#">Bernie</a>
+                            <a href="https://sabrinakudo.github.io/HOMEWORK17/">Sabrina</a>
+                            <a href="https://aadig2377.github.io/AboutMe/">Addi</a>
+                        </div>
+                        <div class="col-3"> 
+                            <a href="https://feragusta.github.io/homework_17/">Ferdi</a>
+                            <a href="https://kcruark.github.io/HW-MyFirstLayout/">Kendric</a>
+                            <a href="https://lusifan.github.io/HM-MyPortfolio/">Lusi</a>
+                            <a href="https://jhwkim.github.io/HW-MyFirstLayout/">Jihwan</a>
+                            <a href="https://mgindiya.github.io/HW17/">Masha</a>
+                        </div>
+                        <div class="col-3"> 
+                            <a href="https://ski8689.github.io/HW_17/">Seul Ki </a>
+                            <a href="https://stephanieschreiber.github.io/HW-MyFirstLayout/">Steffi</a>
+                            <a href="https://nikki-garcia.github.io/hw17-portfolio/index.html">Nikki</a>
+                            <a href="https://johannanilsson.github.io/homework16/">Johanna</a>
+                        </div>
+                        <div class="col-3"> 
+                            <a href="https://manasa098.github.io/Homework_17/">Manasa</a>
+                            <a href="https://kyaroshi.github.io/HW-MyFirstLayout/">Caroline</a>
+                            <a href="https://carinafinucane.github.io/HW-MyFirstLayout/">Carina</a>
+                            <a href="https://sarah-kelly.github.io/HW17/">Sarah</a>
+                            <a href="https://yongyifeng.github.io/homework_17/#">Yongyi</a>
+                        </div>
+                    </div>
+                </section>   
+                <!-- Bootstrap Portfolio Page-->
+                <section class="container hw18">
+                        <h2>HW 18: Boostrap Portfolio Page</h2>
+                </section> 
+    </div>
 </body>
 </html>
